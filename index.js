@@ -33,7 +33,7 @@ function currentLine(katzDeliLine){
   
   var currentLine = []
   
-  if (katzDeliLine === 0){
+  if (currentLine === 0){
     
       return "The line is currently empty"    
     
