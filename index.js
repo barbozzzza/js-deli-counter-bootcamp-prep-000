@@ -33,9 +33,9 @@ function currentLine(katzDeliLine){
   
   var currentLine = []
   
-  if (currentLine === 0){
+  if (katzDeliLine === 0){
     
-      return "The line is currently empty"    
+      return ("The line is currently empty")    
     
     
   }else{
@@ -44,7 +44,7 @@ function currentLine(katzDeliLine){
       currentLine.push( `${i+1}.${katzDeliLine[i]}` )
     }
     
-    return 'The line is currently:' + currentLine 
+    return 'The line is currently:' + $currentLine.join() 
     
   }
   
