@@ -31,7 +31,7 @@ function nowServing(katzDeliLine,personInLine){
 
 function currentLine(katzDeliLine){
   
-  var currentLine = []
+  var Line = []
   
   if (katzDeliLine.length === 0){
     
@@ -41,10 +41,10 @@ function currentLine(katzDeliLine){
   }else{
     
     for (let i = 0; i <katzDeliLine.length ;i++){
-      currentLine.push( `${i+1}. ${katzDeliLine[i]}` )
+      Line.push( `${i+1}. ${katzDeliLine[i]}` )
     }
     
-    return `The line is currently: ${ currentLine.join(', ') }`
+    return `The line is currently: ${ Line.join(', ') }`
     
   }
   
